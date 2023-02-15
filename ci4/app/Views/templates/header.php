@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php echo link_tag('css/index.css') ?>
-    <title>CodeIgniter Tutorial</title>
+    <script src="https://kit.fontawesome.com/f13e6c5b0d.js" crossorigin="anonymous"></script>
+    <title>Canicanor Works</title>
 </head>
 <body>
 
