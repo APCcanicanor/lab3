@@ -1,0 +1,142 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    white-space: normal;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: garamond;
+}
+
+
+nav {
+    background: #000000;
+    height: 80px;
+    width: 100%;
+    opacity: 95%;
+}
+label.logo {
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: bold;
+    padding: 0 100px;
+}
+.custom-header {
+    position:fixed;
+    display: fixed;
+    z-index:1;
+    width:100%;
+}
+.menu-logo {
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+}
+.h-btn:hover {
+    background: #6a1919;
+    transition: .5s;
+}
+.w3-button:hover {
+    background: #d9b3b3;
+    padding: 3px 25px;
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+nav ul li a:hover {
+    background: #808080;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 80px;
+    cursor: pointer;
+    display: none;
+    
+}
+#check {
+    display: none;
+}
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background:#0f0f0f;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover, a.home-button, a.about-button{
+        background: none;
+        color:  #808080;
+
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+.g-btn {
+    background: #584c4c;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    position: relative;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+
+#php-sec {
+    text-align: center;
+}
+
+

@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canicanor Works</title>
+    <link rel="icon" type="image/x-icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/f13e6c5b0d.js" crossorigin="anonymous"></script>
+</head>
+<body>
     <nav class="custom-header">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -17,14 +28,14 @@
             To get to know me <br> 
             Click the button to learn more
             </h1>
-            <a href="personal profile.php"><button class="h-btn">Learn More</button></a>
+            <a href="personal profile"><button class="h-btn">Learn More</button></a>
         </div>
     </section>
  <!--Section 2-->
  <section class="w3-area" id="w3">
     <div class="text-part" style="margin-top: 10%">
         <h1>W3SCHOOLS</h1>
-        <p><a href="w3schools.php" class="w3-button">View</a></p>
+        <p><a href="w3schools" class="w3-button">View</a></p>
     </div>
  </section>
  <hr>
@@ -41,3 +52,5 @@
         </ul>
     </div>
 </footer>
+</body>
+</html>
