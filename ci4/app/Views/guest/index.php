@@ -10,12 +10,12 @@
 		<table>
 		<tr>
 		<th>-----</th>
-		 <th><?= esc($guest_item['name']) ?> </th>
-         <th><?= esc($guest_item['email']) ?> </th>
-         <th><?= esc($guest_item['website']) ?> </th>
-         <th><?= esc($guest_item['gender']) ?> </th>
-		 <th><?= esc($guest_item['comment']) ?> </th>
-         <th><?= esc($guest_item['reg_date']) ?> </th>
+		 <th><?= esc($guest_item['name']) ?> </th> <br>
+         <th><?= esc($guest_item['email']) ?> </th> <br>
+         <th><?= esc($guest_item['website']) ?> </th> <br>
+         <th><?= esc($guest_item['gender']) ?> </th> <br>
+		 <th><?= esc($guest_item['comment']) ?> </th> <br>
+         <th><?= esc($guest_item['reg_date']) ?> </th> <br>
 		</tr>
 		</table>
         </div>
