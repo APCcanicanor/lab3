@@ -8,28 +8,6 @@
 
 
   <title>Document</title>
-  <style>
-   body{ 
-    background-color: #E4DEE4;
-   }
-   form {
-    text-align: center;
-    font-size: 30px;
-   }
-  .g-btn {
-    background: #584c4c;
-    border: 0;
-    outline: none;
-    padding: 15px 35px;
-    color: #fff;
-    position: relative;
-    font-weight: 500px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    
-}
-
-  </style>
 </head>
 <body>
 <nav class="custom-header">
