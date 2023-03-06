@@ -58,12 +58,20 @@
 <form action="/~canicanor/lab3/ci4/public/news/create" method="post">
     <?= csrf_field() ?>
 
-    <label for="title">Title: </label>
-    <input type="input" name="title" value="<?= set_value('title') ?>">
+    <label for="name">Name: </label>
+    <textarea name="name" cols="45" rows="3"><?= set_value('name') ?></textarea>
+    <br>
+    
+    <label for="email">Email: </label>
+    <textarea name="email" cols="45" rows="3"><?= set_value('email') ?></textarea>
+    <br>
+
+    <label for="website">Website: </label>
+    <textarea name="website" cols="45" rows="3"><?= set_value('website') ?></textarea>
     <br>
 
     <label for="body">Text: </label>
-    <textarea name="body" cols="55" rows="7"><?= set_value('body') ?></textarea>
+    <textarea name="body" cols="45" rows="7"><?= set_value('body') ?></textarea>
     <br>
 
     <input class = "g-btn" type="submit" name="submit" value="Create news item"> 
