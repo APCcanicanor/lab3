@@ -8,17 +8,17 @@
 </head>
 <body>
 <nav class="custom-header">
-  <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
-    </label>
-    <label class="logo"><a href="#home" style="color: white;">V's</a></label>
-      <ul>
-        <li><a href="home">Home</a></li>
-        <li><a href="w3schools">w3schools</a></li>
-        <li><a alt = "home-button" href = "personal profile"> Personal Page </a></li>
-      </ul>
-</nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="#home" style="color: white;">V's</a></label>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="w3schools">w3schools</a></li>
+            <li><a href="personal profile">personal page</a></li>
+        </ul>
+    </nav>
 <br>
 <br>
 <br>
