@@ -46,7 +46,6 @@
     <p id = "lnk"></p>
 
     <h1>Click the hyperlink below </h1>
-    <a href = "form_validation">Forms</a> <br>
 
     <a href = "guests">See guests</a> <br>
 
