@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
-
-
-  <title>Document</title>
-  <style>
-   body{ 
-    background-color: #E4DEE4;
-   }
-   form {
-    text-align: center;
-    font-size: 30px;
-   }
-  .g-btn {
-    background: #584c4c;
-    border: 0;
-    outline: none;
-    padding: 15px 35px;
-    color: #fff;
-    position: relative;
-    font-weight: 500px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    
-}
-
-  </style>
-</head>
-<body>
 <nav class="custom-header">
   <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
@@ -55,7 +21,8 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 
-<form action="/~canicanor/lab3/ci4/public/news/create" method="post">
+<form style = "text-align: center;
+    font-size: 30px;"action="/~canicanor/lab3/ci4/public/news/create" method="post">
     <?= csrf_field() ?>
 
     <label for="title">Title: </label>
@@ -66,8 +33,18 @@
     <textarea name="body" cols="55" rows="7"><?= set_value('body') ?></textarea>
     <br>
 
-    <input class = "g-btn" type="submit" name="submit" value="Create news item"> 
+    <input class = "g-btn" style = " 
+    background: #584c4c;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    position: relative;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    cursor: pointer;" type="submit" name="submit" value="Create news item"> 
 </form>
+
 
 <footer style = "position: absolute; bottom: 0;" >
     <div class="footer-content">
