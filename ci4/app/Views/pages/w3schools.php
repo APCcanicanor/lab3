@@ -48,7 +48,7 @@
     <h1>Click the hyperlink below </h1>
     <a href = "form_validation"> Form validation </a> <br>
 
-    <a href = "guests">See guests</a> <br>
+    <a href = "guest">See guests</a> <br>
 
     <a href = "news/create"> Create smthn</a> <br>
 
