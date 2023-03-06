@@ -156,6 +156,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
 ?>
 </div>
+<footer style = "position: absolute; bottom: 0;" >
+    <div class="footer-content">
+        <h3>V's Website</h3>
+        <p>Follow us on:</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/carlvon.nicanor/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/caii522"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/carl-von-nicanor-3754b818b/"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+</footer>
 
 
 </body>
