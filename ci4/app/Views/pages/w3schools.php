@@ -46,7 +46,7 @@
     <p id = "lnk"></p>
 
     <h1>Click the hyperlink below </h1>
-    <a href = "form_validation"> Form validation </a> <br>
+    <a href = "guest/create"> Submit guest logs </a> <br>
 
     <a href = "guest">See guests</a> <br>
 

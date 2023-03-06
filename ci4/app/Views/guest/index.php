@@ -4,21 +4,11 @@
 
     <?php foreach ($guest as $guest_item): ?>
 
-        <div class="main">
-		<br>
-		<b>
-		<table>
-		<tr>
-		<th>-----</th>
-		 <th><?= esc($guest_item['name']) ?> </th>
-         <th><?= esc($guest_item['email']) ?> </th>
-         <th><?= esc($guest_item['website']) ?> </th>
-         <th><?= esc($guest_item['gender']) ?> </th>
-		 <th><?= esc($guest_item['comment']) ?> </th>
-         <th><?= esc($guest_item['reg_date']) ?> </th>
-		</tr>
-		</table>
-        </div>
+        <h2><?= esc($guest_item['name']) ?></h2>
+
+    <p><?= esc($guest_item['comment']) ?></p>
+
+    <?= anchor("guest/" . esc($guest_item['id'], 'url'), "View guest details") ?>
     <?php endforeach ?>
 
 <?php else: ?>
@@ -26,3 +16,6 @@
     <p>Unable to find any guest for you.</p>
 
 <?php endif ?>
+<br>
+<br>
+<p>You can register here! <?= anchor("guest/create", "Register here!") ?></p>
