@@ -41,7 +41,7 @@
       <ul>
         <li><a href="home">Home</a></li>
         <li><a href="w3schools">w3schools</a></li>
-        <li><a alt = "home-button" href = "public/personal profile"> Personal Page </a></li>
+        <li><a alt = "home-button" href = "personal profile"> Personal Page </a></li>
       </ul>
 </nav>
 <br>
