@@ -4,10 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/forms.css">
 
 
   <title>Document</title>
+  <style>
+   body{ 
+    background-color: #E4DEE4;
+   }
+   form {
+    text-align: center;
+    font-size: 30px;
+   }
+  .g-btn {
+    background: #584c4c;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    position: relative;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+
+  </style>
 </head>
 <body>
 <nav class="custom-header">
