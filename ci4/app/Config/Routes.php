@@ -35,9 +35,7 @@ use App\Controllers\Guest;
 use App\Controllers\News;
 use App\Controllers\Pages;
 
-//guest routes
-$routes->match(['get', 'post'], 'guest/create', [Guest::class, 'create']);
-$routes->get('guest', [Guest::class, 'index']);
+
 
 $routes->match(['get', 'post'], 'guest/create', [Guest::class, 'create']);
 $routes->get('guest/(:segment)', [Guest::class, 'view']);
