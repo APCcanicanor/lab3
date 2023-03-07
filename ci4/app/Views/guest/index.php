@@ -9,6 +9,24 @@
     <script src="https://kit.fontawesome.com/f13e6c5b0d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<nav class="custom-header">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="#home" style="color: white;">V's</a></label>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="w3schools">w3schools</a></li>
+            <li><a href="personal profile">personal page</a></li>
+        </ul>
+    </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <h2><?= esc($title) ?></h2>
 
 <?php if (! empty($guest) && is_array($guest)): ?>
