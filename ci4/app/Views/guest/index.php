@@ -7,6 +7,11 @@
     <link rel="icon" type="image/x-icon" href="images/fav-icon.png">
     <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/f13e6c5b0d.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #E4DEE4;
+        }
+    </style>
 </head>
 <body>
 <nav class="custom-header">
@@ -16,9 +21,7 @@
         </label>
         <label class="logo"><a href="#home" style="color: white;">V's</a></label>
         <ul>
-            <li><a href="home">Home</a></li>
-            <li><a href="w3schools">w3schools</a></li>
-            <li><a href="personal profile">personal page</a></li>
+            <li><a href="guest/create">Submit guest logs</a></li>
         </ul>
     </nav>
 <br>
@@ -50,5 +53,16 @@
 <br>
 <p>You can register here! <?= anchor("guest/create", "Register here!") ?></p>
 </div>
+<footer style = "position: absolute; bottom: 0;" >
+    <div class="footer-content">
+        <h3>V's Website</h3>
+        <p>Follow us on:</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/carlvon.nicanor/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/caii522"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/carl-von-nicanor-3754b818b/"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>
