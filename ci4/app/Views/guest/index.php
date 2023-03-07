@@ -8,7 +8,7 @@
 
     <p><?= esc($guest_item['comment']) ?></p>
 
-    <?= anchor("~canicanor/lab3/ci4/public/guest/" . esc($guest_item['id'], 'url'), "View guest details") ?>
+    <?= anchor("guest/" . esc($guest_item['id'], 'url'), "View guest details") ?>
     <?php endforeach ?>
 
 <?php else: ?>
@@ -18,4 +18,4 @@
 <?php endif ?>
 <br>
 <br>
-<p>You can register here! <?= anchor("~canicanor/lab3/ci4/public/guest/create", "Register here!") ?></p>
+<p>You can register here! <?= anchor("guest/create", "Register here!") ?></p>
