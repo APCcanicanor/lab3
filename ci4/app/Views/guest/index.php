@@ -1,5 +1,5 @@
 <h2><?= esc($title) ?></h2>
-
+<section style = "text-align">
 <?php if (! empty($guest) && is_array($guest)): ?>
 
     <?php foreach ($guest as $guest_item): ?>
@@ -19,3 +19,4 @@
 <br>
 <br>
 <p>You can register here! <?= anchor("guest/create", "Register here!") ?></p>
+</section>
