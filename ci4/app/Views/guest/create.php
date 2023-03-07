@@ -11,6 +11,18 @@
         body {
             background-color: #E4DEE4;
         }
+        .g-btn {
+    background: #584c4c;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    position: relative;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
     </style>
 </head>
 <body>
@@ -60,7 +72,7 @@
     <br>
     <br>
 
-    <input type="submit" name="submit" value="Create guest entry">
+    <input class = "g-btn" type="submit" name="submit" value="Create Guest Entry"> 
 </form> 
 <footer style = "position: absolute; bottom: 0;" >
     <div class="footer-content">
