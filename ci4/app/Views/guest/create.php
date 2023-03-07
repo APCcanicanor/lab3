@@ -32,7 +32,7 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 
-<form style = "text-align: center;" action="<?= base_url() . "guest/create" ?>" method="post">
+<form style = "text-align: center;" action="<?= base_url() . "/guest/create" ?>" method="post">
     <?= csrf_field() ?>
 
     <label for="name">Name</label>
