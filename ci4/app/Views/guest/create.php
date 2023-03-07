@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Canicanor Works</title>
+    <link rel="icon" type="image/x-icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/f13e6c5b0d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <nav class="custom-header">
