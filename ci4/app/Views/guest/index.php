@@ -8,7 +8,7 @@
 
     <p><?= esc($guest_item['comment']) ?></p>
 
-    <?= anchor("guest/" . esc($guest_item['id'], 'url'), "View guest details") ?>
+    <?= anchor("" . esc($guest_item['id'], 'url'), "View guest details") ?>
     <?php endforeach ?>
 
 <?php else: ?>
