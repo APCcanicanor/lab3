@@ -27,6 +27,7 @@
 <br>
 <br>
 <br>
+<div class = "form-section" style = "text-align: center">
 <h2><?= esc($title) ?></h2>
 
 <?php if (! empty($guest) && is_array($guest)): ?>
@@ -48,5 +49,6 @@
 <br>
 <br>
 <p>You can register here! <?= anchor("guest/create", "Register here!") ?></p>
+</div>
 </body>
 </html>
